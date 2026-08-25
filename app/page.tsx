@@ -7,10 +7,10 @@ export default function Home() {
         <RetroComputer />
 
         {/* Attribution — always visible over the scene */}
-        <div className="pointer-events-none absolute left-0 right-0 top-0 z-20 flex items-center justify-between px-4 py-3 font-mono text-[10px] uppercase tracking-[0.2em] text-black/60 sm:text-[11px]">
+        <div className="pointer-events-none absolute left-0 right-0 top-0 z-20 flex items-center justify-between px-4 py-3 font-mono text-[10px] uppercase tracking-[0.2em] text-white/70 sm:text-[11px]">
           <a
             href="https://github.com/simsketch/retro-computer-react"
-            className="pointer-events-auto hover:text-black"
+            className="pointer-events-auto hover:text-white"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -20,7 +20,7 @@ export default function Home() {
             Original 3D scene &amp; terminal by{' '}
             <a
               href="https://github.com/edhinrichsen/retro-computer-website"
-              className="underline hover:text-black"
+              className="underline hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -29,7 +29,7 @@ export default function Home() {
             (MIT) · React/Next.js port by{' '}
             <a
               href="https://elonzito.com"
-              className="underline hover:text-black"
+              className="underline hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
