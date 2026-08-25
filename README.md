@@ -4,12 +4,19 @@ An interactive 3D retro computer — with a working UNIX-style terminal, virtual
 file system, and CRT shader effects — rendered in WebGL and wrapped as a
 React/Next.js client component.
 
-**Live:** the scene runs as the hero of [elonzito.com](https://elonzito.com).
-Click the screen and type `help`.
+**Live demo:** https://simsketch.github.io/retro-computer-react/ — click the
+screen and type `help`. The scene also runs as the hero of
+[elonzito.com](https://elonzito.com).
 
-This is a port of [retro-computer-website][upstream] by **Edward Hinrichsen**
-(MIT), moved from a standalone Vite app into a component that drops into any
-Next.js/React app. Full attribution and licence in [LICENSE.md](LICENSE.md).
+## Attribution
+
+The original 3D scene, terminal emulator, and assets are
+[retro-computer-website][upstream] by **[Edward Hinrichsen](https://github.com/edhinrichsen)**,
+used under the MIT licence — all credit for the scene design, the Commodore
+model treatment, the CRT shader look, and the terminal concept belongs to him.
+This repository is a port of that work from a standalone Vite app into a
+component that drops into any Next.js/React app. The full licence and list of
+changes are in [LICENSE.md](LICENSE.md).
 
 ## What the port adds
 
@@ -38,6 +45,11 @@ pnpm dev
 ```
 
 Open http://localhost:3000, click the screen, type `help`.
+
+The site is fully static (`output: 'export'`); pushes to `main` deploy it to
+GitHub Pages via `.github/workflows/pages.yml`, which sets
+`NEXT_PUBLIC_BASE_PATH=/retro-computer-react` so the WebGL asset loaders work
+under the Pages subpath.
 
 ## Make it yours
 
