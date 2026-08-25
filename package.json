@@ -1,0 +1,26 @@
+{
+  "name": "retro-computer-react",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build:filesystem": "node scripts/build-file-system.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "three": "0.134.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "0.136.1",
+    "postcss": "^8.5",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}

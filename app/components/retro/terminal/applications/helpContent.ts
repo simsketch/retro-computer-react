@@ -1,0 +1,2 @@
+/** Contents of `assets/help.md` (was a Vite `?raw` import). */
+export const helpMD: string = "\n\n\n\n# Help\n### EDSH is just like BASH except much more limited.\n\n## • Type*ls* to list directory contents\n\n## • Type*cd* to change directory\n\n## • Type*show* to render .md files\n\n## • Use ↑ and ↓ keys to scroll\n\n### Tip: try typing \"show -all\"\n\n\n## All commands\n### EDSH, version 0.2.1 \n\n"
